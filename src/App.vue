@@ -14,6 +14,7 @@
         <div class="SelectInfo">
           <router-link to="/male" class="pickgenderM">male</router-link>
           <router-link to="/female" class="pickgenderFM">female</router-link>
+          <router-link to="/" class="toppage">top</router-link>
           <router-view></router-view>
         </div>
     </main>

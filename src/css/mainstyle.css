@@ -69,6 +69,7 @@ main {
     font-weight: bold;
     color: rgb(85, 85, 218);
     margin-right: 30px;
+    margin-left: 750px;
 }
 
 .pickgenderM:hover {
@@ -78,6 +79,7 @@ main {
 .pickgenderFM {
     font-weight: bold;
     color: rgb(201, 147, 156);
+    margin-right: 700px;
 }
 
 .pickgenderFM:hover {
@@ -184,4 +186,12 @@ span {
         /*下に固定*/
     }
 
+}
+
+.toppage{
+    font-family: 'Economica', sans-serif;
+}
+
+.toppage:hover{
+    text-decoration: underline rgb(8, 135, 4);
 }
