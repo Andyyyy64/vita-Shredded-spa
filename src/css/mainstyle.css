@@ -1,0 +1,187 @@
+* {
+    margin: 0 auto;
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
+}
+
+header {
+    background-color: #222629;
+    height: 70px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.Htitle {
+    color: white;
+    margin-left: 10px;
+    padding-top: 10px;
+    font-weight: 100px;
+    font-family: 'Economica', sans-serif;
+    font-size: 35px;
+    letter-spacing: 2px;
+}
+
+.Cliche {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+    margin-right: 10px;
+    color: rgb(108, 160, 102);
+    font-weight: bold;
+    position: relative;
+    bottom: 20px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    letter-spacing: 3px;
+}
+
+main {
+    background-color: #18191a;
+    height: 760px;
+    display: block;
+    padding-top: 70px;
+}
+
+.pickwrapper {
+    margin-top: 50px;
+    
+}
+
+.Mtitle {
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Economica', sans-serif;
+    letter-spacing: 1px;
+    font-size: 50px;
+}
+
+.SelectInfo {
+    text-align: center;
+}
+
+.sex {
+    transform: scale(2.0);
+    margin: 20px 20px;
+    cursor: pointer;
+}
+
+.pickgenderM {
+    font-weight: bold;
+    color: rgb(85, 85, 218);
+    margin-right: 30px;
+}
+
+.pickgenderM:hover {
+    text-decoration: underline;
+}
+
+.pickgenderFM {
+    font-weight: bold;
+    color: rgb(201, 147, 156);
+}
+
+.pickgenderFM:hover {
+    text-decoration: underline;
+}
+
+.malewrapper {
+    text-align: center;
+    background-color: rgb(85, 85, 218);
+    height: 760px;
+    margin-top: 20px;
+}
+
+
+.femalewrapper {
+    text-align: center;
+    background-color: rgb(201, 147, 156);
+    height: 760px;
+    margin-top: 20px;
+}
+
+.agetitle {
+    padding-top: 20px;
+    font-family: 'Economica', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.ageinfo {
+    width: 50px;
+    margin-top: 10px;
+    font-family: 'Economica', sans-serif;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #303846;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+}
+
+.Ftitle {
+    margin-left: 10px;
+    padding-top: 10px;
+    color: white;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+}
+
+.Twitter {
+    display: flex;
+}
+
+.Git {
+    display: flex;
+}
+
+a {
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Amatic SC', cursive;
+}
+
+.Tcolor:hover {
+    color: #1DA1F2;
+    text-decoration: underline;
+}
+
+.Gcolor:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+span {
+    margin-right: 5px;
+}
+
+.Sinfo {
+    list-style: none;
+    text-align: center;
+    display: flex;
+}
+
+.fa-twitter {
+    color: #1DA1F2;
+}
+
+.fa-github {
+    color: black;
+}
+
+@media screen and (max-width:480px) {
+    .malewrapper {
+        height: 2000px;
+        width: 400px;
+    }
+
+    footer {
+        position: fixed;
+        /*←絶対位置*/
+        bottom: 0;
+        /*下に固定*/
+    }
+
+}
