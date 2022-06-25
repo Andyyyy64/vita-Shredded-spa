@@ -2,12 +2,12 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <div class="femalewrapper">
         <div class="userstatus" v-if="!calcFlg">
-            <h1 class="statustitle">Pick your status</h1>
-            <ageselect></ageselect>
-            <heightselect></heightselect>
-            <weightselect></weightselect>
-            <activityselect></activityselect>
-            <goalselect></goalselect>
+            <h1 class="femalestatustitle">Choose your status</h1>
+            <ageselect class="femaleAge"></ageselect>
+            <heightselect class="femaleAge"></heightselect>
+            <weightselect class="femaleAge"></weightselect>
+            <activityselect class="femaleAge"></activityselect>
+            <goalselect class="femaleAge"></goalselect>
         </div>
         <button class="macroBtn F" @click="Calcmacro" v-if="!calcFlg">Calculate Macros</button>
         <macrowrapper v-if="calcFlg"></macrowrapper>
@@ -51,11 +51,15 @@ export default defineComponent({
 })
 </script>
 <style>
-.statustitle {
+.femaleAge{
+    color: rgb(201, 147, 156);
+}
+.femalestatustitle {
     font-family: 'Economica', sans-serif;
     font-weight: bold;
     padding-top: 20px;
     font-size: 50px;
+    color: rgb(201, 147, 156);
 }
 
 .femalewrapper {

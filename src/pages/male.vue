@@ -2,12 +2,12 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <div class="malewrapper">
         <div class="userstatus" v-if="!calcFlg">
-            <h1 class="statustitle">Choose your status</h1>
-            <ageselect></ageselect>
-            <heightselect></heightselect>
-            <weightselect></weightselect>
-            <activityselect></activityselect>
-            <goalselect></goalselect>
+            <h1 class="malestatustitle">Choose your status</h1>
+            <ageselect class="maleAge"></ageselect>
+            <heightselect class="maleAge"></heightselect>
+            <weightselect class="maleAge"></weightselect>
+            <activityselect class="maleAge"></activityselect>
+            <goalselect class="maleAge"></goalselect>
         </div>
         <button class="macroBtn M" @click="Calcmacro" v-if="!calcFlg">Calculate Macros</button>
         <macrowrapper v-if="calcFlg"></macrowrapper>
@@ -52,11 +52,15 @@ export default defineComponent({
 </script>
 
 <style>
-.statustitle {
+.maleAge{
+    color: rgb(85, 85, 218);
+}
+.malestatustitle {
     font-family: 'Economica', sans-serif;
     font-weight: bold;
     padding-top: 20px;
     font-size: 50px;
+    color: rgb(85, 85, 218);
 }
 
 .malewrapper {

@@ -88,7 +88,7 @@ main {
 
 .malewrapper {
     text-align: center;
-    background-color: rgb(85, 85, 218);
+    background-color: #18191a;
     height: 760px;
     margin-top: 20px;
 }
@@ -96,7 +96,7 @@ main {
 
 .femalewrapper {
     text-align: center;
-    background-color: rgb(201, 147, 156);
+    background-color: #18191a;
     height: 760px;
     margin-top: 20px;
 }

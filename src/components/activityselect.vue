@@ -48,6 +48,7 @@ span {
     margin-left: 10px;
     font-family: 'Economica', sans-serif;
     font-size: 20px;
+    color: black;
 }
 
 .radiocontaier {
