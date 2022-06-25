@@ -8,13 +8,13 @@
       <p class="Cliche"></p>
     </header>
     <main>
-      <div class="pickwrapper" v-if="!maleFlg && !femaleFlg">
+      <div class="pickwrapper">
         <h1 class="Mtitle">Please Select Your Gender</h1>
         </div>
         <div class="SelectInfo">
-          <router-link to="/male" class="pickgenderM">male</router-link>
-          <router-link to="/female" class="pickgenderFM">female</router-link>
-          <router-link to="/" class="toppage">top</router-link>
+          <a @click="maleFlg = true"><router-link to="/male" class="pickgenderM">male</router-link></a>
+          <a @click="femaleFlg = true"><router-link to="/female" class="pickgenderFM">female</router-link></a>
+          <a v-if="maleFlg || femaleFlg" @click="feandmaleFlg"><router-link to="/" class="toppage">top</router-link></a>
           <router-view></router-view>
         </div>
     </main>
@@ -49,9 +49,12 @@ export default defineComponent({
       femaleFlg: false,
     }
   },
-
-
-
+  methods:{
+    feandmaleFlg(){
+      this.maleFlg = false
+      this.femaleFlg = false
+    }
+  }
 })
 </script>
 
