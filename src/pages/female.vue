@@ -10,7 +10,7 @@
             <goalselect class="femaleAge"></goalselect>
         </div>
         <button class="macroBtn F" @click="Calcmacro" v-if="!calcFlg">Calculate Macros</button>
-        <macrowrapper v-if="calcFlg"></macrowrapper>
+        <macrowrapper v-if="calcFlg" class="femacroAge"></macrowrapper>
         <button class="macroBtn F" v-if="calcFlg" @click="calcFlg = false">Change Status</button>
     </div>
 </template>
@@ -51,9 +51,14 @@ export default defineComponent({
 })
 </script>
 <style>
-.femaleAge{
+.femacroAge {
     color: rgb(201, 147, 156);
 }
+
+.femaleAge {
+    color: rgb(201, 147, 156);
+}
+
 .femalestatustitle {
     font-family: 'Economica', sans-serif;
     font-weight: bold;

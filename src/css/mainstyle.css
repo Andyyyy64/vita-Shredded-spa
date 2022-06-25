@@ -43,7 +43,7 @@ main {
 
 .pickwrapper {
     margin-top: 50px;
-    
+
 }
 
 .Mtitle {
@@ -188,10 +188,14 @@ span {
 
 }
 
-.toppage{
+.toppage {
     font-family: 'Economica', sans-serif;
 }
 
-.toppage:hover{
+.toppage:hover {
     text-decoration: underline rgb(8, 135, 4);
+}
+
+.macroAge {
+    color: rgb(85, 85, 218);
 }

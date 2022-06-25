@@ -10,7 +10,7 @@
             <goalselect class="maleAge"></goalselect>
         </div>
         <button class="macroBtn M" @click="Calcmacro" v-if="!calcFlg">Calculate Macros</button>
-        <macrowrapper v-if="calcFlg"></macrowrapper>
+        <macrowrapper v-if="calcFlg" class="macroAge"></macrowrapper>
         <button class="macroBtn M" v-if="calcFlg" @click="calcFlg = false">Change Status</button>
     </div>
 </template>
