@@ -68,8 +68,9 @@ main {
 .pickgenderM {
     font-weight: bold;
     color: rgb(85, 85, 218);
-    margin-right: 30px;
-    margin-left: 750px;
+    margin-right: 5%;
+    margin-left: 7%;
+
 }
 
 .pickgenderM:hover {
@@ -79,7 +80,7 @@ main {
 .pickgenderFM {
     font-weight: bold;
     color: rgb(201, 147, 156);
-    margin-right: 700px;
+    margin-right: 5%;
 }
 
 .pickgenderFM:hover {
@@ -117,14 +118,14 @@ main {
 
 footer {
     background-color: #303846;
-    height: 100px;
+    height: 160px;
     width: 100%;
-    position: fixed;
+
 }
 
 .Ftitle {
     margin-left: 10px;
-    padding-top: 10px;
+    padding-top: 30px;
     color: white;
     text-align: center;
     font-family: 'Amatic SC', cursive;
@@ -190,6 +191,7 @@ span {
 
 .toppage {
     font-family: 'Economica', sans-serif;
+
 }
 
 .toppage:hover {
